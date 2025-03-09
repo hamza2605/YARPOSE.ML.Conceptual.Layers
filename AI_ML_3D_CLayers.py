@@ -26,7 +26,7 @@ G = nx.DiGraph()
 core_hws = ["Nvidia", "Cerebras", "TSMC", "Intel", "AMD"]
 for hw in core_hws:
     G.add_node(hw, level=0, description=f"{hw}: Core hardware provider.")  
-core_llms = ["ChatGPT", "Deepseek", "Grok", "Gemini", "Qwen"]
+core_llms = ["ChatGPT", "Deepseek", "Grok", "Gemini", "Qwen", "Mistral"]
 for llm in core_llms:
     G.add_node(llm, level=1, description=f"{llm}: Core large language model.")  
     for hw in core_hws:
