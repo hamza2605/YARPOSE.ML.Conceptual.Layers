@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # AI_ML_3D_CLayers.py - 3D Visualization of AI/ML Ecosystem Conceptual Layers 
-# A python program utilizng plotly for 3D Visualization of AI/ML Ecosystem Conceptual Layers.
+# A python program utilizing plotly for 3D Visualization of AI/ML Ecosystem Conceptual Layers.
 # Copyright (C) 2025 M. B. Ghaznavi-Ghoushchi
 #
 # This program is free software: you can redistribute it and/or modify it under
